@@ -21,7 +21,7 @@ function App() {
       <h3>Integrantes</h3>
       <h4>Carlos Andrés Granados Luis</h4>
       
-      <a href="index.html">Da click aqui</a>
+      <a href="inicio.html">Da click aqui</a>
 
       <div className="card">
        
