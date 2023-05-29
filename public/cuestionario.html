@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CUESTIONARIO</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <div class="Encabezado">
+            <H1 class="Titulo">Diseño de Sitios Web - FASE 4</H1>
+            <h2> <img class="logo" src="img/logoUNAD-HD.png" alt=" logo UNAD" width="99%"></h2>
+            <nav>
+                <div class="btn-group">
+                    <li><a class="inicio" href="indexGrupal.html"> INICIO</a></li>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-warning dropdown-toggle" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            TEMAS
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="cssgrid.html"> CSS-GRID</a></li>
+                            <li> <a class="dropdown-item" href="Selectorescss.html">SELECTORES CSS</a></li>
+
+                        </ul>
+                    </div>
+
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-warning dropdown-toggle" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            AUDIOS
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="Audiocssgrid.html"> CSS-GRID</a></li>
+                            <li> <a class="dropdown-item" href="AudioSelector.html">SELECTORES CSS</a></li>
+
+                        </ul>
+                    </div>
+
+
+                </div>
+
+
+            </nav>
+
+        </div>
+
+    </header>
+    <aside>
+        <div>
+            <ul class="menu-vertical">
+                <li><a href="indexGrupal.html"> INICIO</a></li>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-warning dropdown-toggle" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        TEMAS
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="cssgrid.html"> CSS-GRID</a></li>
+                        <li> <a class="dropdown-item" href="Selectorescss.html">SELECTORES CSS</a></li>
+
+                    </ul>
+                </div>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-warning dropdown-toggle" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        AUDIOS
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="Audiocssgrid.html"> CSS-GRID</a></li>
+                        <li> <a class="dropdown-item" href="AudioSelector.html">SELECTORES CSS</a></li>
+
+                    </ul>
+                </div>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-warning dropdown-toggle" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        CUESTIONARIO
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="cuestionario.html"> CSS-GRID</a></li>
+
+                    </ul>
+                </div>
+        </div>
+
+        <li> <a href="Nosotros.html"> NOSOTROS</a></li>
+        </ul>
+        </div>
+    </aside>
+    <h1 class="CUESTIONARIO">Cuestionario</h1>
+    
+    <button id="result" >Resultado</button>
+    <form id="quiz" name="question">
+        <h5>1.¿Qúe es el css grid?</h5>
+        <input type="radio" name="R1" value="a">
+       <strong>a.</strong> Es una herramienta que permite crear la interfaz grafica de una paguina web. <br>
+        <input type="radio" name="R1" value="b">
+        <strong>b.</strong> CSS Grid es un módulo de diseño en CSS que permite a los desarrolladores web crear diseños de cuadrícula
+        bidimensionales para páginas web. <br>
+        <input type="radio" name="R1" value="c">
+        <strong>c.</strong> crea una interfaz grafica amigable. <br>
+        <br>
+        <h5>2.¿Cuál de las siguientes propiedades de CSS Grid se utiliza para definir el tamaño de las filas y columnas
+            en una cuadrícula?</h3>
+        <input type="radio" name="R2" value="a">
+        <strong>a.</strong>grid-gap. <br>
+        <input type="radio" name="R2" value="b">
+        <strong>b.</strong> grid-template-areas. <br>
+        <input type="radio" name="R2" value="c">
+        <strong>c.</strong> grid-template-columns. <br>
+        <input type="radio" name="R2" value="d">
+        <strong>d.</strong> grid-auto-rows. <br>
+        <h5>3. ¿Qué propiedad se utiliza para colocar un elemento en una celda específica dentro de una cuadrícula?</h5>
+        <input type="radio" name="R3" value="a">
+        <strong>a.</strong> grid-area. <br>
+        <input type="radio" name="R3" value="b">
+        <strong>b.</strong> grid-row. <br>
+        <input type="radio" name="R3" value="c">
+        <strong>c.</strong> rid-column. <br>
+        <input type="radio" name="R3" value="d">
+        <strong>d.</strong> grid-template. <br>
+        <h5>4. ¿Cuál de las siguientes propiedades se utiliza para establecer el espacio entre las celdas de una cuadrícula?</h5>
+        <input type="radio" name="R4" value="a">
+        <strong>a.</strong> grid-gap. <br>
+        <input type="radio" name="R4" value="b">
+        <strong>b</strong> grid-row-gap. <br>
+        <input type="radio" name="R4" value="c">
+        <strong>c.</strong> grid-column-gap. <br>
+        <input type="radio" name="R4" value="d">
+        <strong>d.</strong> gap. <br>
+        <h5>¿Qué propiedad se utiliza para especificar cómo se distribuyen los espacios sobrantes en una cuadrícula?</h5> 
+
+        <input type="radio" name="R5" value="a">
+        <strong>a.</strong> grid-gap. <br>
+        <input type="radio" name="R5" value="b">
+        <strong>b.</strong> justify-items. <br>
+        <input type="radio" name="R5" value="c">
+        <strong>c.</strong> align-content. <br>
+    </form>
+    <button id="submit" onclick="procesarRespuesta()">Enviar respuestas </button>
+
+    <script src="preguntas.js"></script>
+    <footer>
+        <img src="img/logoUNADMobile-HD.png">
+        <p class="copyright">&copy Copyright. Todos los derechos reservados. Carlos Andres Granados- Jesica Paola
+            Ibañez- 2023</p>
+        <p class="conocimientos">Tengo conocimientos en HTML & CSS</p>
+    </footer>
+
+
+
+
+</body>
+
+</html>
